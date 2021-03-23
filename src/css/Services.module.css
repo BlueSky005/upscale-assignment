@@ -1,0 +1,167 @@
+
+.serviceIcons {
+    font-size: 40px;
+    color: #db2531;
+    /* height: 45px;
+    width: 45px; */
+}
+
+.servicesTitle {
+    /* width: 35%; */
+    text-align: center;
+    padding: 2rem;
+    font-size: 30px;
+    font-family: 'Arial';
+}
+
+.servicesTitleContainer {
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 1.3;
+    font-family: "Rubik",Arial,Helvetica,sans-serif;
+}
+
+.servicesContainer {
+    background-color: white;
+
+}
+
+
+.serviceOverViewContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.serviceOverViewContent {
+    text-align: center;
+    /* width: 15%; */
+    padding: 2rem;
+}
+
+.serviceOverViewTitle {
+    font-size: 20px;
+}
+
+.serviceOverViewTitleContainer {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+.serviceCards {
+    background: #ffffff;
+    padding: 0px;
+    box-shadow: 0px 17px 35px rgb(74 74 115 / 10%), 0px 5px 15px rgb(0 0 0 / 7%);
+    /* width: 20%; */
+    border-radius: 2px;
+
+}
+.serviceCards:hover {
+    cursor: pointer;
+}
+
+.servicesImg {
+    width: 100%;
+}
+
+.serviceCardsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    text-align: center;
+    /* margin: 30px 0 30px 0; */
+
+}
+
+.serviceCardTitle {
+     margin-top: 40px;
+    font-size: 20px;
+}
+
+.serviceCardTitleContainer {
+    margin: 1rem 0 1rem 0;
+}
+
+.serviceCardDescContainer {
+    color: #666677;
+    line-height: 1.75;
+    margin: 0 1rem 0 1rem;
+    font-size: 14px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .serviceOverViewContent {
+        width: 100%;
+    }
+    .servicesTitle {
+        width: 80%;
+    }
+    .serviceCards {
+        width: 80%;
+        /* margin-left: 2rem; */
+        margin: 40px 2rem 40px 2rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .serviceOverViewContent {
+        width: 100%;
+    }
+    .servicesTitle {
+        width: 80%;
+    }
+    .serviceCards {
+        width: 80%;
+        /* margin-left: 2rem; */
+        margin: 40px 2rem 40px 2rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .serviceOverViewContent {
+        width: 15%;
+    }
+    .servicesTitle {
+        width: 35%;
+    }
+    .serviceCards {
+        width: 20%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .serviceOverViewContent {
+        width: 15%;
+    }
+    .servicesTitle {
+        width: 35%;
+    }
+    .serviceCards {
+        width: 20%;
+        margin: 40px 0rem 40px 2rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .serviceOverViewContent {
+        width: 15%;
+    }
+
+    .servicesTitle {
+        width: 35%;
+    }
+
+    .serviceCards {
+        width: 20%;
+        margin: 40px 0rem 40px 2rem;
+    }
+}
