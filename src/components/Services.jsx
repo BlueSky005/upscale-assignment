@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { EntypoNetwork, EntypoLineGraph, EntypoFeather, EntypoGraduationCap } from 'react-entypo';
 // import logo from '../assets/services/business-newspaper-380x213.jpg';
-
+// import Card from '../library/Card';
 import ServiceStyles from '../css/Services.module.css';
 import { servicesData } from "../assets/data";
 

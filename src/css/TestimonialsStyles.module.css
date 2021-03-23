@@ -1,0 +1,56 @@
+.title {
+    display: flex;
+    margin-top: 2rem;
+     justify-content: center;
+}
+
+
+.titleCaption {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    /* margin-left: 8%; */
+
+}
+
+.titleMarkerContainer {
+    display: flex;
+    justify-content: center;
+
+    /* margin-left: 8%; */
+    margin-top: 2rem;
+}
+
+.titleMarker {
+    /* display: flex;
+   align-self: center; */
+    background-color: #db2531;
+    height: 2px;
+    width: 4.5rem;
+    border: none;
+    color: #db2531;
+}
+
+
+
+
+.testimonialsOverViewContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.testimonialsOverViewContent {
+    text-align: center;
+    /* width: 15%; */
+    padding: 2rem;
+}
+
+.testimonialsOverViewTitle {
+    font-size: 20px;
+}
+
+.serviceOverViewTitleContainer {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}

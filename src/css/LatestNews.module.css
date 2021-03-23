@@ -1,57 +1,33 @@
+/*
+.titleCaption {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-left: 8%;
 
-.serviceIcons {
-    font-size: 40px;
-    color: #db2531;
-    /* height: 45px;
-    width: 45px; */
-}
+} */
 
-.servicesTitle {
-    /* width: 35%; */
-    text-align: center;
-    padding: 2rem;
-    font-size: 30px;
-    font-family: 'Arial';
-}
-
-.servicesTitleContainer {
-    display: flex;
-    justify-content: center;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 1.3;
-    font-family: "Rubik",Arial,Helvetica,sans-serif;
-}
-
-.servicesContainer {
-    background-color: white;
-
-}
-
-
-.serviceOverViewContainer {
+.newsCardsContainer {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    /* justify-content: flex-start; */
+
+  text-align: left;
+    /* margin: 30px 0 30px 0; */
+
 }
 
-.serviceOverViewContent {
+.newsDate {
+    color: #999;
+}
+
+/* .newsOverViewContent {
     text-align: center;
-    /* width: 15%; */
+    width: 15%;
     padding: 2rem;
-}
+} */
 
-.serviceOverViewTitle {
-    font-size: 20px;
-}
-
-.serviceOverViewTitleContainer {
-    margin-top: 12px;
-    margin-bottom: 12px;
-}
-
-
-.serviceCards {
+.newsCards {
     background: #ffffff;
     padding: 0px;
     box-shadow: 0px 17px 35px rgb(74 74 115 / 10%), 0px 5px 15px rgb(0 0 0 / 7%);
@@ -59,15 +35,13 @@
     border-radius: 2px;
 
 }
-.serviceCards:hover {
-    cursor: pointer;
-}
 
-.servicesImg {
+
+.newsImg {
     width: 100%;
 }
 
-.serviceCardsContainer {
+.newsCardsContainer {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -77,32 +51,38 @@
 
 }
 
-.serviceCardTitle {
+.newsCardTitle {
      margin-top: 40px;
     font-size: 20px;
 }
 
-.serviceCardTitleContainer {
-    margin: 1rem 0 1rem 0;
+.newsCardTitleContainer {
+    /* margin: 1rem 0 1rem 0; */
+    text-align: left;
+    /* padding: 1rem; */
+    margin: 1rem 2rem 0 2rem;
+    width: 70%;
+    font-size: 18px;
 }
-
-.serviceCardDescContainer {
+/*
+.newsCardDescContainer {
     color: #666677;
     line-height: 1.75;
     margin: 0 1rem 0 1rem;
     font-size: 14px;
 }
 
+ */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .serviceOverViewContent {
+    .newsOverViewContent {
         width: 100%;
     }
-    .servicesTitle {
+    .newsTitle {
         width: 80%;
     }
-    .serviceCards {
+    .newsCards {
         width: 80%;
         /* margin-left: 2rem; */
         margin: 40px 2rem 40px 2rem;
@@ -111,13 +91,13 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .serviceOverViewContent {
+    .newsOverViewContent {
         width: 100%;
     }
-    .servicesTitle {
+    .newsTitle {
         width: 80%;
     }
-    .serviceCards {
+    .newsCards {
         width: 80%;
         /* margin-left: 2rem; */
         margin: 40px 2rem 40px 2rem;
@@ -126,26 +106,26 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .serviceOverViewContent {
+    .newsOverViewContent {
         width: 15%;
     }
-    .servicesTitle {
+    .newsTitle {
         width: 35%;
     }
-    .serviceCards {
+    .newsCards {
         width: 20%;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .serviceOverViewContent {
+    .newsOverViewContent {
         width: 15%;
     }
-    .servicesTitle {
+    .newsTitle {
         width: 35%;
     }
-    .serviceCards {
+    .newsCards {
         width: 20%;
         margin: 40px 0rem 40px 2rem;
     }
@@ -153,15 +133,15 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .serviceOverViewContent {
+    .newsOverViewContent {
         width: 15%;
     }
 
-    .servicesTitle {
+    .newsTitle {
         width: 35%;
     }
 
-    .serviceCards {
+    .newsCards {
         width: 20%;
         margin: 40px 0rem 40px 2rem;
     }
