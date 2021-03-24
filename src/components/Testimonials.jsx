@@ -41,7 +41,7 @@ function Testimonials () {
 
                             <div className={TestimonialsStyles.testimonialHeader}>
                                 <img src={testimonial.clientImg} style={{ borderRadius: '50%' }} />
-                                <label style={{ display: 'flex', flexFlow: 'column wrap' }}>
+                                <label style={{ display: 'flex', flexFlow: 'column wrap', width: '70%' }}>
                                     <span className={TestimonialsStyles.clientName} >{testimonial.clientName}</span>
                                     <span className={TestimonialsStyles.companyName} >{testimonial.companyName}</span>
                                 </label>
