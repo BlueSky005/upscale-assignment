@@ -8,15 +8,17 @@ import BannerImage from './components/BannerImage';
 import Testimonials from './components/Testimonials';
 import OneCallAway from './components/OneCallAway';
 import About from './components/About';
+import HeroImg from './components/HeroImage';
 
 function App () {
   return (
     <div className="App">
-      <Header></Header>
+      <Header />
+      <HeroImg />
       <Services />
       <About />
       <Testimonials />
-      {/* <BannerImage /> */}
+      <BannerImage />
       <LatestNews />
       <OneCallAway />
       <Footer></Footer>

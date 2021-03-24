@@ -2,16 +2,15 @@
 .serviceIcons {
     font-size: 40px;
     color: #db2531;
-    /* height: 45px;
-    width: 45px; */
 }
 
 .servicesTitle {
-    /* width: 35%; */
+
     text-align: center;
     padding: 2rem;
     font-size: 30px;
-    font-family: 'Arial';
+
+    font-family: 'Calibri';
 }
 
 .servicesTitleContainer {
@@ -25,9 +24,7 @@
 
 .servicesContainer {
     background-color: #f8f7f6;
-
 }
-
 
 .serviceOverViewContainer {
     display: flex;
@@ -38,7 +35,6 @@
 
 .serviceOverViewContent {
     text-align: center;
-    /* width: 15%; */
     padding: 2rem;
 }
 
@@ -56,12 +52,12 @@
     background: #ffffff;
     padding: 0px;
     box-shadow: 0px 17px 35px rgb(74 74 115 / 10%), 0px 5px 15px rgb(0 0 0 / 7%);
-    /* width: 20%; */
     border-radius: 2px;
 
 }
 .serviceCards:hover {
     cursor: pointer;
+    margin-top: 1rem;
 }
 
 .servicesImg {
@@ -72,9 +68,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-
     text-align: center;
-    /* margin: 30px 0 30px 0; */
 
 }
 
@@ -92,6 +86,7 @@
     line-height: 1.75;
     margin: 0 1rem 0 1rem;
     font-size: 14px;
+    margin-bottom: 2rem;
 }
 
 
@@ -105,7 +100,6 @@
     }
     .serviceCards {
         width: 80%;
-        /* margin-left: 2rem; */
         margin: 40px 2rem 40px 2rem;
     }
 }
@@ -120,7 +114,6 @@
     }
     .serviceCards {
         width: 80%;
-        /* margin-left: 2rem; */
         margin: 40px 2rem 40px 2rem;
     }
 }
@@ -135,7 +128,7 @@
     }
     .serviceCards {
         width: 27%;
-        margin: 40px 1rem 40px 1rem;
+        margin: 60px 1rem 60px 1rem;
     }
 }
 
@@ -148,8 +141,8 @@
         width: 35%;
     }
     .serviceCards {
-        width: 20%;
-        margin: 40px 0rem 40px 2rem;
+        width: 25%;
+        margin: 60px 0rem 60px 2rem;
     }
 }
 
@@ -164,7 +157,7 @@
     }
 
     .serviceCards {
-        width: 20%;
-        margin: 40px 0rem 40px 2rem;
+        width: 25%;
+        margin: 60px 0rem 60px 2rem;
     }
 }

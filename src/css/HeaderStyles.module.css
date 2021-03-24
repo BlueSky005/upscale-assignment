@@ -1,0 +1,243 @@
+
+.container {
+
+    cursor: pointer;
+
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+  }
+
+  .bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 4px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .change .bar2 {opacity: 0;}
+
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+
+
+
+
+.logo {
+    margin-right: 1rem;
+}
+
+
+.headerContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: white;;
+}
+
+.headerMenu > li {
+    display: inline;
+    font-family: "Rubik",Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #bcbebf;
+    padding: 1rem;
+}
+
+.headerMenu > li:hover {
+    cursor: pointer;
+    color: #db2531;
+}
+
+.headerLMenu {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.headerRMenu {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    color: #bcbebf;
+    font-size: 20px;
+
+}
+
+.headerRMenu > i {
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.headerRMenu > i:hover {
+    color: #db2531;
+    cursor: pointer;
+}
+
+.quoteBtn {
+
+    background: #db2531;
+    color: #fff;
+    padding: 14px 32px;
+    display: inline;
+    border: none;
+    border-radius: 100px;
+    transition: opacity 0.15s;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.quoteBtn:hover {
+    background-color: #ec6f7a;
+    cursor: pointer;
+}
+
+.subMenuContainer {
+    position: relative;
+}
+
+
+.portfolioSubMenu {
+    transition: transform 1s ease-in-out;
+    background-color: #292929;
+    color: white;
+    width: 12%;
+    margin-left: 34%;
+    position: absolute;
+    line-height: 0.5rem;
+
+
+}
+
+.portfolioSubMenu > ul > li {
+    padding: 1rem;
+    font-size: 12px;
+
+}
+.portfolioSubMenu > ul > li:hover {
+    background-color: #666677;
+    cursor: pointer;
+}
+
+.headerMenu > li {
+    height: 100%;
+    padding-bottom: 3rem;
+}
+
+
+.mobileMenuContainer {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.mobileMenu {
+    width: 85%;
+    height: 100%;
+    position: absolute;
+
+    margin-top: -5.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: #DB2531;
+    height: 10rem;
+
+
+}
+
+.mobileMenuContent {
+    background-color: white;
+    position: absolute;
+    width: 85%;
+    height: auto;
+    margin-top: 4rem;
+    justify-content: space-around;
+    padding: 1.5rem;
+    line-height: 3rem;
+}
+
+.subMenuIcon {
+    float: right;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .largerOptions {
+        display: none;
+    }
+
+    .logo {
+        width: 6rem;
+    }
+    .container {
+        display: inline-block;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .largerOptions {
+        display: none;
+    }
+
+    .logo {
+        width: 6rem;
+    }
+    .container {
+        display: inline-block;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .largerOptions {
+        display: none;
+    }
+
+    .logo {
+        width: 6rem;
+    }
+    .container {
+        display: inline-block;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .largerOptions {
+        display: block;
+    }
+    .logo {
+        width: 7rem;
+    }
+    .container {
+        display: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .largerOptions {
+        display: block;
+    }
+
+    .logo {
+        width: 7rem;
+    }
+    .container {
+        display: none;
+    }
+}

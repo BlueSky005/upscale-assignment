@@ -9,7 +9,7 @@
     font-size: 20px;
     color: black;
     font-weight: bold;
-    /* margin-left: 8%; */
+    margin-top: 3rem;
 
 }
 
@@ -17,13 +17,11 @@
     display: flex;
     justify-content: center;
 
-    /* margin-left: 8%; */
     margin-top: 2rem;
 }
 
 .titleMarker {
-    /* display: flex;
-   align-self: center; */
+
     background-color: #db2531;
     height: 2px;
     width: 4.5rem;
@@ -31,18 +29,15 @@
     color: #db2531;
 }
 
-
-
-
 .testimonialsOverViewContainer {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin-bottom: 4rem;
 }
 
 .testimonialsOverViewContent {
     text-align: center;
-    /* width: 15%; */
     padding: 2rem;
 }
 
@@ -90,7 +85,6 @@
 }
 
 .companyName {
-    /* align-self: flex-end; */
     color: #999;
     font-size: 14px;
     margin-left: 1rem;
@@ -103,12 +97,6 @@
     margin-top: 1rem;
 }
 
-
-
-/* .testimonialCardR {
-    display: flex;
-    flex-flow: column wrap;
-} */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -128,7 +116,7 @@
 @media only screen and (min-width: 768px) {
 
     .testimonialsOverViewContent {
-        width: 15%;
+        width: 25%;
     }
     .testimonialCard {
         width: 35%;
@@ -137,6 +125,9 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .testimonialsOverViewContent {
+        width: 20%;
+    }
     .testimonialCard {
         width: 35%;
     }
@@ -144,6 +135,9 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .testimonialsOverViewContent {
+        width: 20%;
+    }
     .testimonialCard {
         width: 35%;
     }

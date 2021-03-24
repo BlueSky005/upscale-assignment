@@ -46,7 +46,7 @@ function About () {
                 <div className={AboutStyles.AboutLContainer}>
                     <SectionTitle title="About Our Company" />
 
-                    <div style={{ marginLeft: '3rem', marginTop: '2rem' }}>
+                    <div className={AboutStyles.AboutLContent} >
                         <p style={{ marginBottom: '1.5rem' }}>
                             We at UpScale are dolor sit amet, consectetur adipiscing elit. Nunc finibus fermentum nibh, tempor venenatis mi unparalleled performance. Donec ac rhoncus lorem. Pellentesque aliquam velit non est semper elementum.
                 </p>
@@ -109,11 +109,6 @@ function About () {
                     </div>
                     <HorizontalRow style={{ paddingTop: '0rem' }} />
 
-
-
-
-
-
                     <div className={AboutStyles.AboutRHeader}>
                         <label>How can we help your business?</label>
                         {business === true ? (
@@ -134,8 +129,6 @@ function About () {
                     <HorizontalRow style={{ paddingTop: '0rem' }} />
 
 
-
-
                     <div className={AboutStyles.AboutRHeader}>
                         <label>Why should you choose UpScale?</label>
 
@@ -154,7 +147,7 @@ function About () {
                         </p>
                         }
                     </div>
-
+                    <br /><br />
 
                 </div>
 

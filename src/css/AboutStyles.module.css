@@ -8,16 +8,13 @@
 }
 
 .AboutLContainer {
-    /* width: 40%; */
+
     color: #666677;
     font-size: 14px;
 }
 
 .AboutRContainer {
-    /* width: 40%; */
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-around; */
+
     color: #666677;
     font-size: 14px;
     margin-top: 2rem;
@@ -52,6 +49,10 @@
         width: 80%;
     }
 
+    .AboutLContent {
+        margin-left: 1rem; margin-top: 2rem;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -63,6 +64,10 @@
 
     .AboutRContainer {
         width: 80%;
+    }
+
+    .AboutLContent {
+        margin-left: 1rem; margin-top: 2rem;
     }
 }
 
@@ -76,6 +81,10 @@
     .AboutRContainer {
         width: 40%;
     }
+
+    .AboutLContent {
+        margin-left: 3rem; margin-top: 2rem;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -88,6 +97,10 @@
     .AboutRContainer {
         width: 40%;
     }
+
+    .AboutLContent {
+        margin-left: 3rem; margin-top: 2rem;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -99,5 +112,9 @@
 
     .AboutRContainer {
         width: 40%;
+    }
+
+    .AboutLContent {
+        margin-left: 3rem; margin-top: 2rem;
     }
 }

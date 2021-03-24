@@ -6,7 +6,6 @@ function OneCallAway () {
     return (
 
         <>
-
             <div className={OneCallAwayStyles.oneCallAwayContainer}>
                 <div className={OneCallAwayStyles.oneCallAwayLContainer}>
                     <SectionTitle title="One Call Away" />
@@ -31,7 +30,6 @@ function OneCallAway () {
                         <button className={OneCallAwayStyles.oneCallAwayRBtn}>Request</button>
                     </div>
                 </div>
-
             </div>
         </>
 

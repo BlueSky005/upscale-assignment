@@ -1,7 +1,6 @@
 .title {
     display: flex;
     margin-top: 2rem;
-    /* justify-content: center; */
 }
 
 
@@ -18,12 +17,11 @@
 
     width: 4.5rem;
     margin-left: 8%;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .titleMarker {
-    /* display: flex;
-   align-self: center; */
+
     background-color: #db2531;
     height: 2px;
     width: 4.5rem;

@@ -19,16 +19,13 @@ function Testimonials () {
                         testimonialsOverviewData.map( ( testimonial, i ) => {
                             return (
 
-
                                 <div className={TestimonialsStyles.testimonialsOverViewContent} key={i}>
                                     <img src={testimonial.companyImg} />
-                                    {/* <EntypoNetwork className={TestimonialsStyles.serviceIcons} /> */}
-                                    {/* <div className={TestimonialsStyles.testimonialsOverViewTitleContainer}>
-                                    <em className={TestimonialsStyles.testimonialsOverViewTitle}>{testimonial.tagLine}</em>
-                                </div> */}
+
                                     <div>
                                         <em style={{ fontSize: '14px', color: '#999' }}>{testimonial.tagLine}</em>
                                     </div>
+                                    <br />
                                 </div>
 
                             )
@@ -41,14 +38,6 @@ function Testimonials () {
                 {testimonialsData.map( ( testimonial, i ) => {
                     return (
                         <div className={TestimonialsStyles.testimonialCard} key={i}>
-                            {/* <div>
-                                <img src={testimonial.clientImg} />
-
-                                <label className={TestimonialsStyles.testimonialCardR}>
-                                    <span>{testimonial.clientName}</span>
-                                    <span>{testimonial.companyName}</span>
-                                </label>
-                            </div> */}
 
                             <div className={TestimonialsStyles.testimonialHeader}>
                                 <img src={testimonial.clientImg} style={{ borderRadius: '50%' }} />
@@ -65,8 +54,10 @@ function Testimonials () {
                             </div>
 
                         </div>
+
                     )
                 } )}
+
             </div>
 
         </>

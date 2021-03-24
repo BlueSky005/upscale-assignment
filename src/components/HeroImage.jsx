@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import banner from '../assets/home-slider-2-2.jpg';
+
 
 function HeroImage () {
     return (
-        <>
-            <h3>Hero Image comes here.</h3>
-        </>
+
+        <img src={banner} style={{ width: '100%', height: '25rem' }} />
+
     )
 }
 
