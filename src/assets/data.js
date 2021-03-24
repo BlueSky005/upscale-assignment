@@ -59,8 +59,36 @@ const testimonialsOverviewData = [
     }
 ]
 
+const testimonialsData = [
+    {
+        clientName: 'Matt Higgins',
+        clientImg: 'testimonials/smiling-man-70x70.jpg',
+        companyName: 'Happy client',
+        clientDesc: 'Last few years I was closely following company activities and always trying out their latest products, and needless to say, I was never disappointed.'
+    },
+    {
+        clientName: 'Flora Wilson',
+        clientImg: 'testimonials/woman-face-2-70x70.jpg',
+        companyName: 'Unicoin Ltd. represantative',
+        clientDesc: 'I have found out about this company only a month ago and I fell in love with their products right away. See you at World Business Expo.'
+    },
+    {
+        clientName: 'Tasha Ingram',
+        clientImg: 'testimonials/woman-calling-70x70.jpg',
+        companyName: 'Long term partner',
+        clientDesc: 'Quality and attention to details in their products is hard to find anywhere else. I would definitely recommend this company to anyone in our field.'
+    },
+    {
+        clientName: 'Robert Chambers',
+        clientImg: 'testimonials/man-portrait-70x70.jpg',
+        companyName: 'Swipe Ltd. board member',
+        clientDesc: 'We have been working with UpScale only for a month, but the outstanding results we already achieved have amazed us. Keep up the good work.'
+    }
+]
+
 export {
     servicesData,
     latestCompanyNewsData,
-    testimonialsOverviewData
+    testimonialsOverviewData,
+    testimonialsData
 }

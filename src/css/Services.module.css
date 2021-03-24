@@ -133,7 +133,8 @@
         width: 35%;
     }
     .serviceCards {
-        width: 20%;
+        width: 27%;
+        margin: 40px 1rem 40px 1rem;
     }
 }
 

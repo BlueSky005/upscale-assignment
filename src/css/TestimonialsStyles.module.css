@@ -54,3 +54,96 @@
     margin-top: 12px;
     margin-bottom: 12px;
 }
+
+
+.testimonialsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+
+.testimonialCard {
+    background: #ffffff;
+    padding: 2rem;
+    box-shadow: 0px 17px 35px rgb(74 74 115 / 10%), 0px 5px 15px rgb(0 0 0 / 7%);
+
+    border-radius: 2px;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.testimonialHeader {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.clientName {
+    align-self: flex-start;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-left: 1rem;
+    font-weight: 600;
+    color: #222;
+}
+
+.companyName {
+    /* align-self: flex-end; */
+    color: #999;
+    font-size: 14px;
+    margin-left: 1rem;
+}
+
+.testimonialDesc {
+    font-size: 14px;
+    color: #667;
+    line-height: 1.75;
+}
+
+
+
+/* .testimonialCardR {
+    display: flex;
+    flex-flow: column wrap;
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .testimonialCard {
+        width: 80%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .testimonialCard {
+        width: 80%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .testimonialsOverViewContent {
+        width: 15%;
+    }
+    .testimonialCard {
+        width: 30%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .testimonialCard {
+        width: 30%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .testimonialCard {
+        width: 30%;
+    }
+}

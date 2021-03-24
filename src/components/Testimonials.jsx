@@ -1,6 +1,6 @@
 import React from 'react'
 import TestimonialsStyles from '../css/TestimonialsStyles.module.css';
-import { testimonialsOverviewData } from "../assets/data";
+import { testimonialsOverviewData, testimonialsData } from "../assets/data";
 
 function Testimonials () {
     return (
@@ -35,6 +35,38 @@ function Testimonials () {
                     } )
 
                 }
+            </div>
+
+            <div className={TestimonialsStyles.testimonialsContainer}>
+                {testimonialsData.map( ( testimonial, i ) => {
+                    return (
+                        <div className={TestimonialsStyles.testimonialCard} key={i}>
+                            {/* <div>
+                                <img src={testimonial.clientImg} />
+
+                                <label className={TestimonialsStyles.testimonialCardR}>
+                                    <span>{testimonial.clientName}</span>
+                                    <span>{testimonial.companyName}</span>
+                                </label>
+                            </div> */}
+
+                            <div className={TestimonialsStyles.testimonialHeader}>
+                                <img src={testimonial.clientImg} style={{ borderRadius: '50%' }} />
+                                <label style={{ display: 'flex', flexFlow: 'column wrap' }}>
+                                    <span className={TestimonialsStyles.clientName} >{testimonial.clientName}</span>
+                                    <span className={TestimonialsStyles.companyName} >{testimonial.companyName}</span>
+                                </label>
+
+                            </div>
+
+                            <div className={TestimonialsStyles.testimonialDesc}>
+                                Last few years I was closely following company activities and always trying out their latest products, and
+                                needless to say, I was never disappointed.
+                            </div>
+
+                        </div>
+                    )
+                } )}
             </div>
 
         </>
