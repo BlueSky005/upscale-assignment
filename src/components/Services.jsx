@@ -27,8 +27,8 @@ function Services () {
                         <span className={ServiceStyles.serviceOverViewTitle}>Business network</span>
                     </div>
                     <div>
-                        <span style={{ fontSize: '14px', color: '#999' }}></span> Gain access to our global business network and community.
-                   </div>
+                        <span style={{ fontSize: '14px', color: '#666677' }}>Gain access to our global business network and community.</span>
+                    </div>
                 </div>
                 <div className={ServiceStyles.serviceOverViewContent}>
                     <EntypoLineGraph className={ServiceStyles.serviceIcons} />
@@ -36,8 +36,11 @@ function Services () {
                         <span className={ServiceStyles.serviceOverViewTitle}>Data analysis</span>
                     </div>
                     <div>
-                        Discover innovative next generation sequencing data analysis.
-                   </div>
+                        <span style={{ fontSize: '14px', color: '#666677' }}>
+                            Discover innovative next generation sequencing data analysis.
+                        </span>
+
+                    </div>
                 </div>
                 <div className={ServiceStyles.serviceOverViewContent}>
                     <EntypoFeather className={ServiceStyles.serviceIcons} />
@@ -45,8 +48,11 @@ function Services () {
                         <span className={ServiceStyles.serviceOverViewTitle}> Personal approach</span>
                     </div>
                     <div>
-                        We strive to meet your needs and to exceed your expectations.
-                   </div>
+                        <span style={{ fontSize: '14px', color: '#666677' }}>
+                            We strive to meet your needs and to exceed your expectations.
+                        </span>
+
+                    </div>
                 </div>
                 <div className={ServiceStyles.serviceOverViewContent}>
                     <EntypoGraduationCap className={ServiceStyles.serviceIcons} />
@@ -54,8 +60,10 @@ function Services () {
                         <span className={ServiceStyles.serviceOverViewTitle}>Unparalleled knowledge </span>
                     </div>
                     <div>
-                        Experience the best industry experts working for your business.
-                   </div>
+                        <span style={{ fontSize: '14px', color: '#666677' }}>
+                            Experience the best industry experts working for your business.
+                        </span>
+                    </div>
                 </div>
 
             </div>

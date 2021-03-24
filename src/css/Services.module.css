@@ -24,7 +24,7 @@
 }
 
 .servicesContainer {
-    background-color: white;
+    background-color: #f8f7f6;
 
 }
 
@@ -33,6 +33,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    background-color: white;
 }
 
 .serviceOverViewContent {
@@ -127,7 +128,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .serviceOverViewContent {
-        width: 15%;
+        width: 20%;
     }
     .servicesTitle {
         width: 35%;
@@ -141,7 +142,7 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .serviceOverViewContent {
-        width: 15%;
+        width: 20%;
     }
     .servicesTitle {
         width: 35%;
@@ -155,7 +156,7 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .serviceOverViewContent {
-        width: 15%;
+        width: 20%;
     }
 
     .servicesTitle {

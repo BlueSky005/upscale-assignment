@@ -1,6 +1,7 @@
 import React from 'react'
 import FooterStyles from '../css/Footer.module.css';
 import 'font-awesome/css/font-awesome.min.css';
+import HorizontalRow from './HorizontalRow';
 
 function Footer () {
     return (
@@ -89,13 +90,16 @@ function Footer () {
                     </div>
 
 
-                    <div style={{
+                    {/* <div style={{
                         marginTop: '3rem', marginBottom: '0.5rem',
                         borderTop: '1px solid rgba(0,0,0,0.1)',
                         paddingTop: '30px'
-                    }}>
-                        {/* <hr /> */}
-                    </div>
+                    }}> */}
+
+                    <HorizontalRow />
+
+                    {/* <hr /> */}
+                    {/* </div> */}
                     <div className={FooterStyles.footerCopyRightInfo}>
                         <p>© 2020 MNKY Studio. Place your own copyright message.</p>
                     </div>

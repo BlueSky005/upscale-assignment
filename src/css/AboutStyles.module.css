@@ -1,0 +1,103 @@
+
+.AboutContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 4rem;
+    background-color: white;
+}
+
+.AboutLContainer {
+    /* width: 40%; */
+    color: #666677;
+    font-size: 14px;
+}
+
+.AboutRContainer {
+    /* width: 40%; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+    color: #666677;
+    font-size: 14px;
+    margin-top: 2rem;
+}
+.AboutRHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+    /* margin-top: 2rem; */
+}
+
+.AboutIcons {
+    margin-top: 0.2rem;
+    color: #db2531;
+}
+
+.AboutRToggle:hover {
+    cursor: pointer;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .AboutLContainer {
+        width: 80%;
+    }
+
+
+    .AboutRContainer {
+        width: 80%;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .AboutLContainer {
+        width: 80%;
+    }
+
+
+    .AboutRContainer {
+        width: 80%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .AboutLContainer {
+        width: 40%;
+    }
+
+
+    .AboutRContainer {
+        width: 40%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .AboutLContainer {
+        width: 40%;
+    }
+
+
+    .AboutRContainer {
+        width: 40%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .AboutLContainer {
+        width: 40%;
+    }
+
+
+    .AboutRContainer {
+        width: 40%;
+    }
+}
