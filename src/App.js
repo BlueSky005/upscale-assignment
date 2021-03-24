@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import LatestNews from './components/LatestNews';
 import BannerImage from './components/BannerImage';
 import Testimonials from './components/Testimonials';
+import OneCallAway from './components/OneCallAway';
 
 function App () {
   return (
@@ -15,6 +16,7 @@ function App () {
       <Testimonials />
       {/* <BannerImage /> */}
       <LatestNews />
+      <OneCallAway />
       <Footer></Footer>
     </div>
   );

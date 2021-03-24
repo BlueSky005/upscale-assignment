@@ -1,0 +1,156 @@
+
+.oneCallAwayContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.oneCallAwayLContainer {
+    display: flex;
+    flex-flow: column wrap;
+    /* width: 50%; */
+}
+
+.desc {
+color: #666677;
+font-size: 16px;
+line-height: 1.75;
+
+    margin-left: 4rem;
+}
+
+.oneCallAwayRCard {
+    background-color: #f8f7f6;
+    padding: 40px 40px 16px 40px;
+    box-shadow: 0px 17px 35px rgb(74 74 115 / 10%), 0px 5px 15px rgb(0 0 0 / 7%);
+    /* width: 30%; */
+}
+
+.oneCallAwayRCardTitle {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.oneCallAwayTxt {
+
+    /* box-sizing: border-box; */
+    width: 100%;
+    margin-top: 3px;
+    padding: 15px 20px;
+    border: 1px solid #e6e7e8;
+    border-radius: 3px;
+    transition: border-color 0.3s;
+    margin-top: 1.5rem;
+    margin-right: 2.5rem;
+}
+
+.oneCallAwayTxtContainer {
+
+    margin-right: 3rem;
+}
+
+.oneCallAwayRDesc {
+    font-size: 13px;
+    line-height: 26px;
+    color: #666677;
+    margin-top: 1.5rem;
+
+    }
+
+    .oneCallAwayRBtn {
+        background-color: #db2531;
+        color: white;
+        border: none;
+        padding: 15px 35px;
+        border-radius: 30px;
+        font-size: 14px;
+        letter-spacing: .02em;
+        font-weight: 600;
+        margin: 1rem 0 2rem 0;
+    }
+
+    .oneCallAwayRBtn:hover {
+        background-color: #b8020e;
+        cursor: pointer;
+    }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .oneCallAwayLContainer {
+        width: 80%;
+    }
+    .oneCallAwayRCard {
+        width: 80%;
+        margin: 0 2rem 4rem 2rem;
+    }
+    .desc {
+        width: 95%;
+        margin-left: 0rem;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .oneCallAwayLContainer {
+        width: 80%;
+    }
+    .oneCallAwayRCard {
+        width: 80%;
+        margin: 0 2rem 4rem 2rem;
+    }
+    .desc {
+        width: 95%;
+        margin-left: 0rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .oneCallAwayLContainer {
+        width: 50%;
+    }
+    .oneCallAwayRCard {
+        width: 30%;
+    }
+    .desc {
+        width: 85%;
+        margin-left: 1rem;
+    }
+    .oneCallAwayRCard {
+        margin-top: 1rem;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .oneCallAwayLContainer {
+        width: 50%;
+    }
+    .oneCallAwayRCard {
+        width: 30%;
+    }
+    .desc {
+        width: 70%;
+        margin-left: 4rem;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .oneCallAwayLContainer {
+        width: 50%;
+    }
+    .oneCallAwayRCard {
+        width: 30%;
+    }
+
+    .desc {
+        width: 70%;
+        margin-left: 4rem;
+    }
+
+}
